@@ -1,0 +1,12 @@
+# system configuration
+system:
+    env: 'public'  # Change to "develop" to generator swagger docs
+    addr: 8668
+    flag: 'flag{testflag}'
+
+# logger configuration
+log:
+    prefix: '[NOOBGO]'
+    log-file: true
+    stdout: 'DEBUG'
+    file: 'DEBUG'
